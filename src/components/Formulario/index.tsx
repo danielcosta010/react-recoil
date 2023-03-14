@@ -28,7 +28,9 @@ const Formulario: React.FC<{ aoSalvar: (evento: IEvento) => void }> = ({ aoSalva
     setDataFim('')
     setHoraFim('')
   }
-  return (<form className={style.Formulario} onSubmit={submeterForm}>
+  return (
+  
+  <form className={style.Formulario} onSubmit={submeterForm}>
     <h3 className={style.titulo}>Novo evento</h3>
 
     <label>Descrição</label>
